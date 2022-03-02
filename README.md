@@ -1,1 +1,1 @@
-# Projet-Jeu-Blackjack
+# Projet - Jeu Blackjack [C++]
