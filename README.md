@@ -1,177 +1,176 @@
 # BlackJack
 
-Notre projet est un BlackJack en 1 contre 1 contre un croupier. Il a été réalisé dans le cadre de l'unité d'enseignement LIFAP4 de 2020-2021.
+Our project is a BlackJack in 1 against 1 against a dealer. It was carried out as part of the teaching unit LIFAP4 of 2020-2021.
 
 ## Installation 
 
-Pour installer et faire fonctionner pleinement le BlackJack. Il faut installer la bibliothèque SDL2. 
+To fully install and operate the BlackJack. You must install the SDL2 library. 
 ```bash
 sudo apt install libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev imagemagick
 ```
 
-## Organisation de l'archive
+## Organization of the archive
 
  
-    ./    :  le Makefile (permettant de créer les 3 executables qui sont contenu dans le dossier bin) et les autres dossiers
+    ./    :  the Makefile (to create the 3 executables that are contained in the bin folder) and the other folders.
 
-	bin/  : Les executables : blackjack maintest et maindemo
+	bin/  : Executables -> blackjack maintest et maindemo
 
-	data/ : Toutes les données nécessaires pour le fonctionnement graphique : images, musiques, police.
+	data/ : All the necessary data for the graphic operation: images, music, font.
 
-	doc/  : Un fichier de configuration doxygen image.doxy, un dossier htlm contenant le résultat de la génération de la documentation doxygen et ce readme
+	doc/  : A doxygen image.doxy configuration file, an htlm folder containing the output of the doxygen documentation and this readme.
 
-	obj/  : Les fichiers objets (.o) : Carte.o Croupier.o JeuSdl.o JeuTxt.o Joueur.o main.o maindemo.o maintest.o Paquet.o
+	obj/  : Object files (.o) : Carte.o Croupier.o JeuSdl.o JeuTxt.o Joueur.o main.o maindemo.o maintest.o Paquet.o
 	
-	src/  : Les fichiers sources cpp et header .h : Carte.cpp Carte.h Croupier.cpp Croupier.h JeuSdl.cpp Jeu.Sdl.h JeuTxt.cpp JeuTxt.h Joueur.cpp Joueur.h main.cpp maindemo.cpp maintest.cpp Paquet.cpp Paquet.h
+	src/  : Source files cpp et header .h : Carte.cpp Carte.h Croupier.cpp Croupier.h JeuSdl.cpp Jeu.Sdl.h JeuTxt.cpp JeuTxt.h Joueur.cpp Joueur.h main.cpp maindemo.cpp maintest.cpp Paquet.cpp Paquet.h
 	
 	
-## Utilisation et Executables
+## Use and Executables
 
-Pour compiler et créer les executables, on utilise la commande make dans le terminal Linux puis on utilisera la commande ./bin/nomExecutable dans le terminal depuis le dossier racine pour le lancer
+To compile and create executables, we use the make command in the Linux terminal and then we use the command . /bin/nameExecutable in the terminal from the root folder to launch it.
     
-    executables crées : blackjack maintest et maindemo
+    executables created : blackjack maintest et maindemo
     
-    blackjack   : executable permettant d'utiliser le mainExemple
+    blackjack   : executable to use le mainExemple
     
-    maintest      : executable permettant d'utiliser le mainTest
+    maintest      : executable to use le mainTest
     
-    maindemo : executable permettant d'utiliser le mainAffichage
+    maindemo : executable to use le mainAffichage
     
 ## Mains 
 
-    blackjack   : Permet de jouer au blackjack en mode textuel ou graphique
+    blackjack   : Allows you to play blackjack in text or graphic mode.
     
-    mainTest      : Permet d'utiliser une fonction de test de regression pour chaque classe qui permet de vérifier que tous les comportement des fonctions sont ceux attendus
+    mainTest      : Allows you to use a regression test function for each class to verify that all the behavior of the functions are the expected ones.
     
-    maindemo : Permet de jouer au blackjack avec un paquet particulier pour montrer les différents cas
+    maindemo : Allows to play blackjack with a particular package to show the different cases.
     
-## Utiliser le main principale (blackjack)
-Pour lancer chaque version du projet (textuelle et graphique), il faut préciser certains arguments après la commande de lancement : ./bin blackjack
+## Use the main hand (blackjack)
 
-    Arguments à mettre pour la version textuelle : 
-      - Premier paramètre : txt pour la version textuelle
-      - Second Argument : Le niveau du jeu (1 ou 2).
-      - Troisième Argument : Le nombre de paquets (entre 1 et 8).
-      - Quatrième paraArgumentmètre : Le nombre de jetons du joueur (entre 500 et 10 000).
-      - Cinquième Argument : Le nom du joueur
+To launch each version of the project (text and graphic), you must specify some arguments after the launch command: . /bin blackjack
+
+    Arguments to put for the text version: 
+      - First parameter: txt for the text version
+      - Second argument: The level of the game (1 or 2).
+      - Third argument: The number of packets (between 1 and 8).
+      - Fourth paraArgumentmeter: The number of player chips (between 500 and 10,000).
+      - Fifth Argument: The name of the player
       
-    Arguments à mettre pour la version graphique :
-      - Un seul argument : sdl pour la version SDL 
+    Arguments to put for the graphic version:
+      - Only one argument: sdl for SDL version 
 
-## Utilisation du jeu en textuel
+## Using the game in text
 
-    Suivre les indications dans le terminal : 
+    Follow the instructions in the terminal: 
     
  ![alt text](https://zupimages.net/up/21/18/00s7.png)
         
-## Raccouris pour utiliser le jeu en SDL
-Raccourcis à suivre pour chaque page : 
+## Raccouris to use the game in SDL
+Shortcuts to follow for each page: 
 
-    Première page : 
-- Menu Principal : 
-  * ![alt text](https://zupimages.net/up/21/18/0qtx.png)
-  * Raccourcis : 
-    - Flèche Haut et Bas pour se déplacer de haut en bas
-    - Flèche Droite et Gauche pour se déplacer de gauche à droite
-    - Entrée pour séléctionner une partie du menu
-    - Echap pour fermer la fenêtre
-    - Résultat du choix : 
-    - Jouer -> Menu de séléction des options de jeu (nombre de jetons, nom, nombre de paquets, difficulté)
-    - Règles -> Règles du jeu
-    - Option -> Options visuels ( Motif de la table, volume de la musique, Motif des jetons et Cartes)
-    - Quitter -> Quitte le jeu
+    Front Page: 
+- Main menu: 
+  *! [alt text](https://zupimages.net/up/21/18/0qtx.png)
+  *Shortcuts: 
+    - Up and Down arrow to move up and down
+    - Right and Left arrow to move from left to right
+    - Input to select part of the menu
+    - Esc to close the window
+    - Result of the choice: 
+    - Jouer -> Selection menu for game options (number of chips, name, number of packages, difficulty)
+    - Règles -> Rules of the game
+    - Option -> Visual Options ( Table Pattern, Music Volume, Token Pattern and Cards)
+    - Quitter -> Exit the game
 
 
-    Règles (Règles) :
+    Règles (Rules) :
     
   * ![alt text](https://zupimages.net/up/21/18/6u6a.png)
-  * Raccourcis : 
-    - Entrée pour revenir à Menu Principal
-    - BackSpace pour revenir à la fenêtre précédente
+  * Shortcuts: 
+    - Enter to return to Main Menu
+    - BackSpace to go back to previous window
+
+    Visual Options (Options):
+  *! [alt text](https://zupimages.net/up/21/18/21np.png)
+  *Shortcuts: 
+    - Up and Down arrow to move up and down
+    - Right and Left arrow to change data in input fields
+    - Enter Validate -> Return to Main Menu (DO NOT PRESS ENTER OTHER PART)
+    - Esc to close the window
+    - BackSpace to go back to previous window
 
 
-    Options Visuels (Options) :
-  * ![alt text](https://zupimages.net/up/21/18/21np.png)
-  * Raccourcis : 
-    - Flèche Haut et Bas pour se déplacer de haut en bas
-    - Flèche Droite et Gauche pour changer les données dans les zones de saisie
-    - Entrée sur Valider -> Retour vers le Menu Principal (NE PAS APPUYER SUR ENTRÉE AUTRE PART)
-    - Echap pour fermer la fenêtre
-    - BackSpace pour revenir à la fenêtre précédente
+    Selection Menu (Play):
+  *! [alt text](https://zupimages.net/up/21/18/scnm.png)
+  *Shortcuts: 
+    - Up and Down arrow to move up and down
+    - Right and Left arrow to change data in input fields (except Player Name)
+    - Right and Left arrow with Player Name to start the name entry
+    - Enter to end name entry (DO NOT PRESS ENTER TO ANY OTHER INPUT AREA THAN NAME)
+    - Return/Play entry (Return to Main Menu / Play to continue to bet selection)
+    - Esc to close the window
+    - BackSpace to go back to previous window
 
 
-    Menu de selection (Jouer) :
-  * ![alt text](https://zupimages.net/up/21/18/scnm.png)
-  * Raccourcis : 
-    - Flèche Haut et Bas pour se déplacer de haut en bas
-    - Flèche Droite et Gauche pour changer les données dans les zones de saisie (sauf Nom joueur)
-    - Flèche Droite et Gauche avec Nom joueur pour lancer la saisie du nom
-    - Entrée pour finir la saisie de nom (NE PAS APPUYER SUR ENTRÉE À UNE AUTRE ZONE DE SAISIE QUE CELLE DU NOM)
-    - Entrée sur Retour/Jouer (Retour au Menu Principal / Jouer pour continuer vers la séléction de mise)
-    - Echap pour fermer la fenêtre
-    - BackSpace pour revenir à la fenêtre précédente
+    Betting selection
+   *! [alt text](https://zupimages.net/up/21/18/1pw8.png)
+   *Shortcuts: 
+     - Up and Down arrow to move up and down
+     - Right and Left arrow on bet box to change bet
+     - Enter Validate to finish the entry of bet (DO NOT PRESS ENTER AT ANY OTHER INPUT AREA THAN THE ENTRY AREA)
 
 
-    Selection de Mise
-   * ![alt text](https://zupimages.net/up/21/18/1pw8.png)
-   * Raccourcis : 
-     - Flèche Haut et Bas pour se déplacer de haut en bas
-     - Flèche Droite et Gauche sur la case de mise pour changer de mise
-     - Entrée sur Valider pour finir la saisie de mise (NE PAS APPUYER SUR ENTRÉE À UNE AUTRE ZONE DE SAISIE QUE CELLE DE LA MISE)
+    Game screen
+- Game screen
+  *! [alt text](https://zupimages.net/up/21/18/ufjl.png) 
+  *Shortcuts: 
+    - Up and Down arrow with closed menu to move from top to bottom (between actions and menu to top)
+    - Up and down arrow with open menu to choose menu section
+    - Right and Left arrow at action level to move between possible actions
+    - Right and left arrow at menu level to move between menu (MENU) and rulers (?)
+    - Entry at the action level to validate the action
+    - Menu level entry to launch menu or rules
 
+- Play screen with insurance 
+  *! [alt text](https://zupimages.net/up/21/18/a05o.png)
+  *Shortcuts: 
+    - Left and Right arrow to choose whether to take insurance
+    - Input to validate its selection
 
-    Écran de jeu
-- Écran de jeu
-  * ![alt text](https://zupimages.net/up/21/18/ufjl.png) 
-  * Raccourcis : 
-    - Flèche Haut et Bas avec le menu fermée pour se déplacer de haut en bas (entre les actions et le menu en haut)
-    - Flèche Haut et Bas avec le menu ouvert pour choisir la section de menu
-    - Flèche Droite et Gauche au niveau des actions pour se déplacer entre les actions possibles
-    - Flèche Droite et Gauche au niveau du menu pour se déplacer entre le menu (MENU) et les règles (?)
-    - Entrée au niveau des actions pour valider l'action
-    - Entrée au niveau du menu pour lancer le menu ou les règles
-
-- Écran de jeu avec l'assurance 
-  * ![alt text](https://zupimages.net/up/21/18/a05o.png)
-  * Raccourcis : 
-    - Flèche Gauche et Droite pour choisir si on prend l'assurance
-    - Entrée pour valider sa séléction
-
-- Écran de jeu avec le menu lancé :
-   * ![alt text](https://zupimages.net/up/21/18/03gb.png)
-   * Raccourcis :
-     - Flèche Haut et Bas avec le menu ouvert pour choisir la section de menu
-        * Continuer -> Ferme le menu
-        * Options -> Redirige vers le menu des options visuels
-        * Quitter -> Quitte le jeu
-     - Entrée pour valider sa séléction 
+- Game screen with the menu launched:
+   *! [alt text](https://zupimages.net/up/21/18/03gb.png)
+   *Shortcuts:
+     - Up and down arrow with open menu to choose menu section
+        * Continue -> Close the menu
+        * Options -> Redirects to Visual Options menu
+        * Quit -> Quit the game
+     - Input to validate its selection 
 
   
-    Fin de manche
-- Image de Victoire
-    * Paquet Initial : ![alt text](https://zupimages.net/up/21/18/t6c4.bmp)
-    * Paquet Splitté : ![alt text](https://zupimages.net/up/21/18/p0as.bmp)
+    End of the inning
+- Image of Victoire
+    * Initial Package:! [alt text](https://zupimages.net/up/21/18/t6c4.bmp)
+    * Splitted Package:! [alt text](https://zupimages.net/up/21/18/p0as.bmp)
 
-- Image de Défaire
-    * Paquet Initial : ![alt text](https://zupimages.net/up/21/18/q8xi.bmp)
-    * Paquet Splitté : ![alt text](https://zupimages.net/up/21/18/4h9r.bmp)
+- Image of Undo
+    * Initial Package:! [alt text](https://zupimages.net/up/21/18/q8xi.bmp)
+    * Splitted Package:! [alt text](https://zupimages.net/up/21/18/4h9r.bmp)
 
-- Image d'Égalité
-    * Paquet Initial : ![alt text](https://zupimages.net/up/21/18/4jja.bmp)
-    * Paquet Splitté : ![alt text](https://zupimages.net/up/21/18/gp18.bmp)
+- Image of Equality
+    * Initial Package:! [alt text](https://zupimages.net/up/21/18/4jja.bmp)
+    * Splitted Package:! [alt text](https://zupimages.net/up/21/18/gp18.bmp)
 
-- Image pour l'Assurance 
-    * Assurance Utile : ![alt text](https://zupimages.net/up/21/18/lqjs.bmp)
-    * Assurance Inutile ! ![alt text](https://zupimages.net/up/21/18/h4ev.bmp)
+- Image for Insurance 
+    * Useful Insurance:! [alt text](https://zupimages.net/up/21/18/lqjs.bmp)
+    * Insurance Useless! [alt text](https://zupimages.net/up/21/18/h4ev.bmp)
 
     
-## Créateurs
+## Creators
 
-    TAIBI YOUSSEF (p1806526)
     
-    BEN JEMIA Boran (p1924945)
+    BEN JEMIA Boran
     
-    ROULLIER LEA (p1911736)
+    ROULLIER LEA
     
     
 
