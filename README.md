@@ -70,7 +70,7 @@ Shortcuts to follow for each page:
 
     Front Page: 
 - Main menu: 
-  *! [alt text](https://zupimages.net/up/21/18/0qtx.png)
+  ![alt text](https://zupimages.net/up/21/18/0qtx.png)
   *Shortcuts: 
     - Up and Down arrow to move up and down
     - Right and Left arrow to move from left to right
@@ -85,13 +85,13 @@ Shortcuts to follow for each page:
 
     Règles (Rules) :
     
-  * ![alt text](https://zupimages.net/up/21/18/6u6a.png)
+  ![alt text](https://zupimages.net/up/21/18/6u6a.png)
   * Shortcuts: 
     - Enter to return to Main Menu
     - BackSpace to go back to previous window
 
     Visual Options (Options):
-  *! [alt text](https://zupimages.net/up/21/18/21np.png)
+  ![alt text](https://zupimages.net/up/21/18/21np.png)
   *Shortcuts: 
     - Up and Down arrow to move up and down
     - Right and Left arrow to change data in input fields
@@ -101,7 +101,7 @@ Shortcuts to follow for each page:
 
 
     Selection Menu (Play):
-  *! [alt text](https://zupimages.net/up/21/18/scnm.png)
+  ![alt text](https://zupimages.net/up/21/18/scnm.png)
   *Shortcuts: 
     - Up and Down arrow to move up and down
     - Right and Left arrow to change data in input fields (except Player Name)
@@ -113,7 +113,7 @@ Shortcuts to follow for each page:
 
 
     Betting selection
-   *! [alt text](https://zupimages.net/up/21/18/1pw8.png)
+   ![alt text](https://zupimages.net/up/21/18/1pw8.png)
    *Shortcuts: 
      - Up and Down arrow to move up and down
      - Right and Left arrow on bet box to change bet
@@ -122,7 +122,7 @@ Shortcuts to follow for each page:
 
     Game screen
 - Game screen
-  *! [alt text](https://zupimages.net/up/21/18/ufjl.png) 
+  ![alt text](https://zupimages.net/up/21/18/ufjl.png) 
   *Shortcuts: 
     - Up and Down arrow with closed menu to move from top to bottom (between actions and menu to top)
     - Up and down arrow with open menu to choose menu section
@@ -132,13 +132,13 @@ Shortcuts to follow for each page:
     - Menu level entry to launch menu or rules
 
 - Play screen with insurance 
-  *! [alt text](https://zupimages.net/up/21/18/a05o.png)
+  ![alt text](https://zupimages.net/up/21/18/a05o.png)
   *Shortcuts: 
     - Left and Right arrow to choose whether to take insurance
     - Input to validate its selection
 
 - Game screen with the menu launched:
-   *! [alt text](https://zupimages.net/up/21/18/03gb.png)
+   ![alt text](https://zupimages.net/up/21/18/03gb.png)
    *Shortcuts:
      - Up and down arrow with open menu to choose menu section
         * Continue -> Close the menu
@@ -149,20 +149,20 @@ Shortcuts to follow for each page:
   
     End of the inning
 - Image of Victoire
-    * Initial Package:! [alt text](https://zupimages.net/up/21/18/t6c4.bmp)
-    * Splitted Package:! [alt text](https://zupimages.net/up/21/18/p0as.bmp)
+    * Initial Package: ![alt text](https://zupimages.net/up/21/18/t6c4.bmp)
+    * Splitted Package: ![alt text](https://zupimages.net/up/21/18/p0as.bmp)
 
 - Image of Undo
-    * Initial Package:! [alt text](https://zupimages.net/up/21/18/q8xi.bmp)
-    * Splitted Package:! [alt text](https://zupimages.net/up/21/18/4h9r.bmp)
+    * Initial Package: ![alt text](https://zupimages.net/up/21/18/q8xi.bmp)
+    * Splitted Package: ![alt text](https://zupimages.net/up/21/18/4h9r.bmp)
 
 - Image of Equality
-    * Initial Package:! [alt text](https://zupimages.net/up/21/18/4jja.bmp)
-    * Splitted Package:! [alt text](https://zupimages.net/up/21/18/gp18.bmp)
+    * Initial Package: ![alt text](https://zupimages.net/up/21/18/4jja.bmp)
+    * Splitted Package: ![alt text](https://zupimages.net/up/21/18/gp18.bmp)
 
 - Image for Insurance 
-    * Useful Insurance:! [alt text](https://zupimages.net/up/21/18/lqjs.bmp)
-    * Insurance Useless! [alt text](https://zupimages.net/up/21/18/h4ev.bmp)
+    * Useful Insurance: ![alt text](https://zupimages.net/up/21/18/lqjs.bmp)
+    * Insurance Useless ![alt text](https://zupimages.net/up/21/18/h4ev.bmp)
 
     
 ## Creators
